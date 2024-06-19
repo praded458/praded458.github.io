@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./normalize.css" rel="stylesheet" />
-    <link href="./style.css" rel="stylesheet" />
-    <title>Визитка</title>
-    <!-- Yandex.Metrika counter -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сергей Авдеев</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <meta property="og:title" content="Сергей Авдеев">
+    <meta property="og:description" content="Мой стек">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+ <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();
@@ -25,17 +28,15 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/97471687" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
   </head>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<body>
-    <header class="header">
-        <img src="./avatar.jpg" alt="avatar" class="header__avatar" width="250px" />
-        <h1 class="header__title">Сергей Авдеев</h1>
-        <h3 class="header__subtitle">Тестирование системы автоматизации для производственной линии.</h3>
-        <p h3 class="header__subtitle">Чем занимаюсь</p>
-      <p h4 class="header__subtitle">Разработка методов и регламентов выполнения процессов в производстве. Наладка коммуникаций и нормативов при взаимодействии между операционными процессами. Понимание технической документации, позволяет значительно быстрей понимать новый продукт или процесс. Быстро выявлять узкие места, интуитивно предугадывать места с темными процессами. Очень часто сталкиваюсь, с новыми задачами, которые надо изучить и внедрить, есть опыт и наработки как справляться с эмоциями перед неизвестным. Удачно выходит гасить конфликты хорошо изучил “Психологический метод взгляда с той стороны”, очень помогает в общении с различными психотипами. Очень люблю читать и разбираться в новом, часто являюсь локальным wiki в обширных сферах. </p>
-      </header>
-      <main>
-        <section class="links">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <body>
+    <header>
+      <img src="./avatar.jpg" alt="avatar" class="header__avatar" width="250px" />
+      <h1>Сергей Авдеев</h1>
+      <p>Тестирование системы автоматизации для производственной линии.</p>
+      <nav>
+        <ul>
+          <section class="links">
           <h2 class="links__header">Доступен</h2>
           <ul class="links__container">
             <li class="links__link">
@@ -49,10 +50,34 @@
             </li>
           </ul>
         </section>
-      </main>
-      <footer>
-        <button type = "button" class="button-link" href=""> Основной девиз </button>
-      </footer>
-      <script type="text/javascript" src="js.js"></script>
-    </body>
-  </html>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Чем занимаюсь</h2>
+          <p>Разработка методов и инструкций для производственных процессов.</p>
+          <p>Налаживание коммуникаций и стандартов взаимодействия между операциями.</p>
+          <p>Понимание технической документации позволяет быстрее осваивать новые продукты и процессы.</p>
+          <p>Я умею быстро выявлять проблемные места и интуитивно определять неясные процессы.</p>
+<p>Часто мне приходится сталкиваться с новыми задачами, которые требуют изучения и внедрения. У меня есть опыт и знания, как справляться с эмоциями, возникающими перед неизвестным.</p>
+<p>Мне удаётся успешно разрешать конфликты благодаря знанию «Психологического метода взгляда с той стороны». Этот метод очень помогает в общении с людьми разных психотипов.</p>
+<p>Я люблю читать и разбираться в новом. Часто я становлюсь локальным экспертом в различных областях..</p>
+             </section>
+        <section>
+          <h2>Чем полезен</h2>
+          <p>Она тоже обо мне</p>
+        </section>
+        <section>
+          <h2>Мои достижения</h2>
+          <p>Скоро напишу.</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>QA Инженер</p>
+    </footer>
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>
